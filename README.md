@@ -20,9 +20,6 @@ OpenShift Developer Preview.
 	  * [app.py](app.py) - must start a service that listens on port 8080 forever
 	  * [requirements.txt](requirements.txt) - list of Python dependencies
 	  
-   NOTE: this worked for me, but I suspect OpenShift should have a
-   better boiler-plate repo somewhere.  Let me know if you find it!
-	  
 5. Back to the OpenShift console, Add new Python2.7 component with
    your github repo's url
 	  
@@ -43,5 +40,3 @@ https://api.preview.openshift.com/oauth/token/request
 
    
 Cheers!
-
-Noel Burton-Krahn <nburtonk@cisco.com>
