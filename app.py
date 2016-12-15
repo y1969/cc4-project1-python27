@@ -10,7 +10,7 @@ def hello_world():
     return """
     <h1>I am done!!!!!</h1>
 
-    <p>From Sam at %(now)s.</p>
+    <p>Young Choi %(now)s.</p>
 
     <p>Deployed on Openshift at <a href="%(url)s">%(url)s</a>.</p>
     
